@@ -220,6 +220,7 @@ margin-right: auto;
   margin-bottom: 38px;
 }
 
+
 /* LINK-SHORTEN */
 .link-shorten {
   position: absolute;
@@ -355,9 +356,10 @@ margin-right: auto;
 
 /* CTA */
 .cta {
-  background-color: var(--color-ink);
   background-image: url(../img/cta-bg.svg);
-  background-position: center;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .cta__info {
